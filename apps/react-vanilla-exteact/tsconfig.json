@@ -2,8 +2,10 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "jsx": "react-jsx",
-    "outDir": "./dist",
-    "types": ["node"]
+    "paths": {
+      "@/*": ["./src/*"],
+      "@styling/vanilla-extract": ["../../packages/vanilla-extract/src"]
+    }
   },
   "include": ["./src/**/*"],
   "exclude": ["node_modules", "dist"]

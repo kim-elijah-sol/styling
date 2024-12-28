@@ -4,7 +4,6 @@ import classNames from 'classnames'
 
 function Button({
   type = 'button',
-  style,
   className,
   ...props
 }: React.ButtonHTMLAttributes<HTMLButtonElement>) {

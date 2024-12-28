@@ -6,6 +6,10 @@ const [themeClass, vars] = createTheme({
     white: '#FFF',
     black: '#000',
   },
+  constant: {
+    NONE: 'none',
+    AUTO: 'auto',
+  },
 })
 
 export { themeClass, vars }

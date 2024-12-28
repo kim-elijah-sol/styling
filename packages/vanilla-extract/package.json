@@ -1,13 +1,16 @@
 {
   "name": "@styling/vanilla-extract",
   "packageManager": "yarn@4.5.3",
-  "main": "dist/packages/vanilla-extract/src/index.js",
-  "typings": "dist/packages/vanilla-extract/src/index.d.ts",
-  "files": [
-    "dist/**/*"
-  ],
+  "main": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./src/index.ts",
+      "import": "./src/index.ts"
+    }
+  },
   "scripts": {
-    "build": "tsc"
+    "build": "rm -rf ./dist && tsc"
   },
   "dependencies": {
     "@types/classnames": "^2.3.4",
