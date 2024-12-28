@@ -1134,6 +1134,7 @@ __metadata:
     "@styling/vanilla-extract": "workspace:^"
     "@types/react": "npm:^18.3.18"
     "@types/react-dom": "npm:^18.3.5"
+    "@vanilla-extract/css": "npm:^1.17.0"
     "@vanilla-extract/vite-plugin": "npm:^4.0.19"
     "@vitejs/plugin-react": "npm:^4.3.4"
     globals: "npm:^15.14.0"
