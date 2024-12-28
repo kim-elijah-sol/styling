@@ -1,6 +1,8 @@
 import classNames from 'classnames'
 import { themeClass } from './theme.css'
 
+import '../Reset/reset.css'
+
 function ThemeRoot({
   className,
   ...props
