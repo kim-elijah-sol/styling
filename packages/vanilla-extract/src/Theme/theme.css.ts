@@ -4,6 +4,7 @@ const [themeClass, vars] = createTheme({
   color: {
     brand: '#0064FF',
     white: '#FFF',
+    warning: '#FF0064',
     black: '#000',
   },
   constant: {
