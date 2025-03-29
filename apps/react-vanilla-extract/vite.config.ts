@@ -5,4 +5,8 @@ import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), vanillaExtractPlugin()],
+  server: {
+    host: true,
+    allowedHosts: ['styling-vwvxb.run.goorm.site'],
+  },
 })
