@@ -1,5 +1,5 @@
 {
-  "name": "@styling/react-vanilla-exteact",
+  "name": "@styling/react-vanilla-extract",
   "packageManager": "yarn@4.5.3",
   "type": "module",
   "scripts": {

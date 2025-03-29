@@ -16,3 +16,6 @@ dist
 coverage
 
 node_modules
+
+goorm.manifest
+.for-goorm-ide

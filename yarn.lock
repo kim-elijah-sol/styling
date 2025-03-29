@@ -1127,9 +1127,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@styling/react-vanilla-exteact@workspace:apps/react-vanilla-exteact":
+"@styling/react-vanilla-extract@workspace:apps/react-vanilla-extract":
   version: 0.0.0-use.local
-  resolution: "@styling/react-vanilla-exteact@workspace:apps/react-vanilla-exteact"
+  resolution: "@styling/react-vanilla-extract@workspace:apps/react-vanilla-extract"
   dependencies:
     "@styling/vanilla-extract": "workspace:^"
     "@types/react": "npm:^18.3.18"
