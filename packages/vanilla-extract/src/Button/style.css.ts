@@ -13,16 +13,22 @@ const buttonBase = style({
 })
 
 export const buttonStyle = styleVariants({
-  brand: [buttonBase, {
-    background: vars.color.brand,
-    ':hover': {
-      background: rgbToRgba(colors.brand, 0.6),
+  brand: [
+    buttonBase,
+    {
+      background: vars.color.brand,
+      ':hover': {
+        background: rgbToRgba(colors.brand, 0.6),
+      },
     },
-  }],
-  warning: [buttonBase, {
-    background: vars.color.warning,
-    ':hover': {
-      background: rgbToRgba(colors.warning, 0.6),
+  ],
+  warning: [
+    buttonBase,
+    {
+      background: vars.color.warning,
+      ':hover': {
+        background: rgbToRgba(colors.warning, 0.6),
+      },
     },
-  }]
+  ],
 })
