@@ -1,5 +1,5 @@
 import React from 'react'
-import { buttonStyle, warningButtonStyle } from './style.css'
+import { buttonStyle } from './style.css'
 import classNames from 'classnames'
 
 function Button({
@@ -10,7 +10,7 @@ function Button({
   return (
     <button
       type={type}
-      className={classNames(className, buttonStyle)}
+      className={classNames(className, buttonStyle['brand'])}
       {...props}
     />
   )
@@ -26,7 +26,7 @@ function Warning({
   return (
     <button
       type={type}
-      className={classNames(className, warningButtonStyle)}
+      className={classNames(className, buttonStyle.warning)}
       {...props}
     />
   )
