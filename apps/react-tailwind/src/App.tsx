@@ -1,10 +1,37 @@
+import { PropsWithChildren } from 'react'
 import './App.css'
+
+function Wrapper({ children }: PropsWithChildren) {
+  return (
+    <main className='w-full p-8 overflow-y-auto gap-2 flex flex-wrap'>
+      {children}
+    </main>
+  )
+}
+
+type CardProps = {
+  colors: string[]
+}
+
+function Card({ colors }: CardProps) {
+  return (
+    <div className='rounded-[16px] shadow-md flex overflow-hidden'>
+      {colors.map((it) => (
+        <div
+          key={it}
+          className='w-[120px] h-[120px]'
+          style={{ backgroundColor: it }}
+        />
+      ))}
+    </div>
+  )
+}
 
 function App() {
   return (
-    <div className='flex-center w-full h-[100vh]'>
-      <div className='bg-blue-400 w-[150px] h-[150px] rounded-2xl transition-all hover:scale-110 cursor-pointer'></div>
-    </div>
+    <Wrapper>
+      <Card colors={['#006AFF', '#6284F5', '#8E8AF5', '#C0ADF4']} />
+    </Wrapper>
   )
 }
 

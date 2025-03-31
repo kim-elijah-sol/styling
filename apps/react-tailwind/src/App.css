@@ -3,3 +3,7 @@
 @utility flex-center {
   @apply flex items-center justify-center;
 }
+
+html {
+  @apply bg-slate-50;
+}
