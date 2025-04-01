@@ -4,8 +4,11 @@
     "jsx": "react-jsx",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "composite": true,
+    "module": "esnext",
+    "moduleResolution": "bundler"
   },
-  "include": ["./src/**/*"],
+  "include": ["./src/**/*", "vite.config.ts"],
   "exclude": ["node_modules", "dist"]
 }
