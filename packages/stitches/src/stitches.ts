@@ -19,13 +19,13 @@ export const {
     },
   },
   utils: {
-    marginX: (value: number | string) => ({
-      marginLeft: value,
-      marginRight: value,
+    paddingX: (value: number | string) => ({
+      paddingLeft: value,
+      paddingRight: value,
     }),
-    marginY: (value: number | string) => ({
-      marginTop: value,
-      marginRight: value,
+    paddingY: (value: number | string) => ({
+      paddingTop: value,
+      paddingBottom: value,
     }),
   },
 })
