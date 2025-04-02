@@ -1,0 +1,22 @@
+{
+  "name": "@styling/stitches",
+  "packageManager": "yarn@4.5.3",
+  "main": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./src/index.ts",
+      "import": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "build": "rm -rf ./dist && tsc"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}

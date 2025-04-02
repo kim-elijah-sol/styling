@@ -1312,6 +1312,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@stitches/react@npm:^1.2.8":
+  version: 1.2.8
+  resolution: "@stitches/react@npm:1.2.8"
+  peerDependencies:
+    react: ">= 16.3.0"
+  checksum: 10c0/d9c03cd88ac25edc493b23a1359f36aa9a497d13bb7a833204d8228b09b6227c1a8ea22e946312ca605f7819fbdd3c49d5f8a5f14b2801c9a31d36172d7f60ac
+  languageName: node
+  linkType: hard
+
+"@styling/react-stitches@workspace:apps/react-stitches":
+  version: 0.0.0-use.local
+  resolution: "@styling/react-stitches@workspace:apps/react-stitches"
+  dependencies:
+    "@styling/stitches": "workspace:^"
+    "@types/react": "npm:^18.3.18"
+    "@types/react-dom": "npm:^18.3.5"
+    "@vitejs/plugin-react": "npm:^4.3.4"
+    globals: "npm:^15.14.0"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    typescript: "npm:~5.6.2"
+    vite: "npm:^6.0.5"
+  languageName: unknown
+  linkType: soft
+
 "@styling/react-tailwind@workspace:apps/react-tailwind":
   version: 0.0.0-use.local
   resolution: "@styling/react-tailwind@workspace:apps/react-tailwind"
@@ -1349,6 +1374,16 @@ __metadata:
     react-dom: "npm:^18.3.1"
     typescript: "npm:~5.6.2"
     vite: "npm:^6.0.5"
+  languageName: unknown
+  linkType: soft
+
+"@styling/stitches@workspace:^, @styling/stitches@workspace:packages/stitches":
+  version: 0.0.0-use.local
+  resolution: "@styling/stitches@workspace:packages/stitches"
+  dependencies:
+    "@stitches/react": "npm:^1.2.8"
+    "@types/node": "npm:^22.10.2"
+    typescript: "npm:^5.7.2"
   languageName: unknown
   linkType: soft
 
