@@ -14,3 +14,10 @@ export const Button = styled('button', {
     background: 'rgba(0,106,255,0.6)',
   },
 })
+
+export const WarningButton = styled(Button, {
+  background: '$warning',
+  '&:hover': {
+    background: 'rgba(255,0,106,0.6)',
+  },
+})
