@@ -9,15 +9,21 @@ export const Button = styled('button', {
   width: 'max-content',
   transition: '0.21s',
   color: '$white',
-  background: '$brand',
-  '&:hover': {
-    background: 'rgba(0,106,255,0.6)',
-  },
-})
 
-export const WarningButton = styled(Button, {
-  background: '$warning',
-  '&:hover': {
-    background: 'rgba(255,0,106,0.6)',
+  variants: {
+    color: {
+      brand: {
+        background: '$brand',
+        '&:hover': {
+          background: 'rgba(0,106,255,0.6)',
+        },
+      },
+      warning: {
+        background: '$warning',
+        '&:hover': {
+          background: 'rgba(255,0,106,0.6)',
+        },
+      },
+    },
   },
 })
