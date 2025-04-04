@@ -8,8 +8,10 @@ function App() {
   return (
     <div>
       <TitleText as='h2'>제목입니당</TitleText>
-      <Button color='brand' type='button'>안녕하세요!</Button>
-      <Button color='warning' type='button'>위험한 버튼이에요!</Button>
+      <Button type='button'>안녕하세요!</Button>
+      <Button color='warning' type='button'>
+        위험한 버튼이에요!
+      </Button>
     </div>
   )
 }
